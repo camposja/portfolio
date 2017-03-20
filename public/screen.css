@@ -1,6 +1,6 @@
 html {
   text-size-adjust: 100%;
-  background: url('images/space.png');
+  background: url('Images/space.png');
   background-size: cover;
 }
 
@@ -54,7 +54,7 @@ i {
 }
 
 .midback {
-  background-image: url('/images/react.png');
+  background-image: url('/Images/react.png');
   background-size: cover;
   height: 4em;
   max-width: 900px;
@@ -63,7 +63,7 @@ i {
 }
 
 .midtwo {
-  background-image: url('/images/code.png');
+  background-image: url('/Images/code.png');
   background-size: cover;
   height: 4em;
   max-width: 900px;
