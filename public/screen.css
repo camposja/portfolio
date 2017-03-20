@@ -1,8 +1,110 @@
 html {
   text-size-adjust: 100%;
+  background: url('images/space.png');
+  background-size: cover;
 }
 
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.dialgbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dialogue {
+  background-color: white;
+  opacity: 0.6;
+  max-width: 600px;
+  max-height: 200px;
+  border-radius: 5px;
+  margin: 45px;
+  position: relative;
+}
+
+.triangle {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+i {
+    position: absolute;
+    left: 20px;
+    bottom: -24px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 25px 0 0;
+    border-color: #d3d3d3 transparent transparent;
+}
+
+.midpix {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 2.5em;
+  background: rgba(0,0,0,0.4);
+}
+
+.midback {
+  background-image: url('/images/react.png');
+  background-size: cover;
+  height: 4em;
+  max-width: 900px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.midtwo {
+  background-image: url('/images/code.png');
+  background-size: cover;
+  height: 4em;
+  max-width: 900px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.actualpic img {
+  margin: 0.8em;
+  border-radius: 5px;
+}
+
+.whitetxt {
+  background-color: white;
+  padding: 0px;
+  max-width: 900px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.blackbottom {
+  background-size: cover;
+  background-color: black;
+}
+
+.blackbottom p {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+
+.footflex {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footflex img {
+  padding-right: 2em;
+}
+
+.graybar {
+  margin-bottom: 2em;
 }
